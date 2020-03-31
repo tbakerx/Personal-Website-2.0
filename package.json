@@ -22,7 +22,7 @@
   "homepage": "https://github.com/tbakerx/Personal-Website-2.0#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "next": "^9.2.2",
+    "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
