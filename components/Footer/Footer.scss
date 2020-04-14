@@ -1,0 +1,19 @@
+@import 'theme/theme';
+
+.Footer {
+  display: block;
+
+  width: 100%;
+
+  padding: 0.5em;
+
+  background: $grey;
+  font-family: 'Lato';
+
+  border-top-style: solid;
+  border-top-color: $primary;
+}
+.footer-text {
+  color: $dark;
+  font-size: 1em;
+}

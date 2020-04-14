@@ -1,0 +1,22 @@
+@import 'theme/theme';
+.Layout {
+  flex: 1;
+  display: flex;
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: 'Lato', 'Lato Black';
+  .Content {
+    flex: 1;
+    display: flex;
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    flex-direction: column;
+    background-color: $light;
+  }
+}
