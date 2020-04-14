@@ -7,6 +7,8 @@ import Testimonials from '@components/Homepage/Testimonials'
 import Contact from '@components/Homepage/Contact'
 import Footer from '@components/Homepage/Footer'
 
+import './index.scss'
+
 
 
 const Home = () => {
