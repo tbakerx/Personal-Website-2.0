@@ -1,31 +1,35 @@
 import Head from 'next/head'
-import { observer } from 'mobx-react'
-import { useMobxStores } from '@stores/stores'
-import { Button } from 'reactstrap'
-
-import Layout from '@components/Layout/Layout'
+import Header from '@components/Homepage/Header'
+import About from '@components/Homepage/About'
+import Resume from '@components/Homepage/Resume'
+import Portfolio from '@components//Homepage/Portfolio'
+import Testimonials from '@components/Homepage/Testimonials'
+import Contact from '@components/Homepage/Contact'
+import Footer from '@components/Homepage/Footer'
 
 
 
 const Home = () => {
 
-  const { mobxStore } = useMobxStores()
+  const data = require('../config/resumeData.json')
 
   return (
-    <Layout>
+    <div className='App'>
       <Head>
-      <title>NextJs Starter</title>
+      <title>Tim Baker Development</title>
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta charSet='utf-8' />
       </Head>
 
-      <div>
-        <p>{mobxStore.testStore}</p>
-        <Button
-          onClick={() => { mobxStore.setTestStore('Did this work?') }}>Test</Button>
-      </div>
-    </Layout >
+      <Header data={data.main}/>
+      <About data={data.main}/>
+      <Resume data={data.resume}/>
+      <Portfolio data={data.portfolio}/>
+      <Testimonials data={data.testimonials}/>
+      <Contact data={data.main}/>
+      <Footer data={data.main}/>
+    </div>
   )
 }
 
-export default observer(Home)
+export default Home
