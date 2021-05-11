@@ -1,4 +1,3 @@
-import {ChevronRightIcon} from '@heroicons/react/solid';
 import {memo} from 'react';
 
 const Hero = memo((): JSX.Element => {
