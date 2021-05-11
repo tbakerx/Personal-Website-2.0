@@ -1,59 +1,46 @@
 {
-  "name": "syom-cms-website-au",
+  "name": "instant.ca",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "next": "next",
+    "dev": "next dev",
     "build": "next build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.149",
-    "@types/reactstrap": "^8.4.2",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
-    "bootstrap": "^4.4.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "helmet": "^3.22.0",
-    "isomorphic-unfetch": "^3.0.0",
-    "lodash": "^4.17.20",
-    "mobx": "^5.15.4",
-    "mobx-react": "^6.1.8",
-    "next": "^9.3.4",
-    "next-fonts": "^1.0.3",
-    "node-sass": "^4.13.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "reactstrap": "^8.4.1",
-    "styled-components": "^5.0.1",
-    "styled-icons": "^10.2.1"
+    "@headlessui/react": "^1.1.1",
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "next": "10.2.0",
+    "postcss": "^8.2.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-decorators": "^7.8.3",
-    "@types/node": "^13.9.8",
-    "@types/react": "^16.9.31",
-    "babel-plugin-module-resolver": "^4.0.0",
-    "nodemon": "^2.0.2",
-    "typescript": "^3.8.3"
-  },
-  "engines": {
-    "node": ">=10.8.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version",
-      "ie 11"
-    ]
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-memo": "^0.0.3",
+    "eslint-plugin-react-native": "^3.10.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "prettier": "^2.2.1",
+    "sort-package-json": "^1.49.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "typescript": "^4.2.4"
   }
 }

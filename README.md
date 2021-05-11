@@ -1,1 +1,1 @@
-# NextJs + Express + Mobx + Typescript Starter
+# NextJS + Typescript + TailwindCSS boilerplate
