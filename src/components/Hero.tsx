@@ -13,8 +13,8 @@ const Hero = memo((): JSX.Element => {
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 I'm working to bring you a new version of my personal website. In doing so, I intend to build it much
-                like my last, by first building and easy to use/customize/populate template so if you like mine, you can
-                easily have a version of your own as well.
+                like my last, by first building a template that is easy to customize/populate and then using that tool
+                to create my own. I'll be making this tool open source for anyone to generate and customize their own.
               </p>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Feel free to sign up below to be notified when the template is released.
