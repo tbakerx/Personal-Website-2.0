@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {memo} from 'react';
+import Hero from '../components/Hero';
 
 const Home = memo((): JSX.Element => {
   return (
@@ -22,7 +23,7 @@ const Home = memo((): JSX.Element => {
           <meta content={OPENGRAPH LINK URL} property="og:url" /> */}
         </Head>
       </div>
-      <h1>NextJS + Typescript + TailwindCSS Boilerplate</h1>
+      <Hero />
     </>
   );
 });
